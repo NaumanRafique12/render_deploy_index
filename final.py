@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 from llama_index.indices.managed.llama_cloud import LlamaCloudIndex
 load_dotenv()
 
+
+
 # --- OpenAI Key ---
 os.environ["OPENAI_API_KEY"] =os.getenv("OPENAI_API_KEY")
 LLAMA_CLOUD_API_KEY =os.getenv("LLAMA_CLOUD_API_KEY")
